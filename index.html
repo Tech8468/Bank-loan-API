@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row1">
+            <img src="img/personal-loan.jpg" alt=""><br>
+            
+        </div>
+        <div class="row2">
+            <form action="">
+                <label id="fName">First Name</label><br>
+                <input type="text" name="firstName" id="firstName" placeholder="Enter First Name" value=""><br>
+                <label id="fnameError"></label><br><br>
+                <label id="sName"> SurName</label><br>
+                <input type="text" name="surName" id="surName" placeholder="Enter SurName" value=""><br>
+                <label id="snameError"></label><br><br>
+                <label id="accNum">Account Number</label><br>
+                <input type="number" id="accNum" placeholder="Enter account number" value=""><br>
+                <label id="accnumError"></label><br><br>
+                <label id="bank">Account Type</label><br>
+                <select name="viewport" id="acctype">
+                    <option value="">Select Account type</option>
+                    <option id="curAccount" value="1">Current Account</option>
+                    <option value="2">Savings Account</option>
+                </select><br>
+                <label id="acctypeError"></label><br><br>
+                <label id="accBal">Account Balance</label><br>
+                <input type="number" id="accB" placeholder="Account Balance" value=""><br>
+                <label id="accbError"></label><br><br>
+                <label id="accHistory">Credit History</label><br>
+                <select name="viewport" id="crHistory">
+                    <option value="">Select Credit History</option>
+                    <option value="1">Month-1</option>
+                    <option value="2">Month-2</option>
+                    <option value="3">Month-3</option>
+                    <option value="4">Month-4</option>
+                    <option value="5">Month-5</option>
+                    <option value="6" id="sixMnth">Month-6</option>
+                    <option value="7">Month-7</option>
+                </select><br>
+                <label id="crhistoryError"></label><br><br>
+                <label id="rLoan">Amount Requested</label><br>
+                <input type="number" id="amtRequested" placeholder="Enter Amount" value=""><br>
+                <label id="loanamtError"></label><br><br>
+                <label id="depositDate">Last Deposit Date</label><br>
+                <select name="" id="lastDeposit">
+                    <option value="">Select Last date of deposit</option>
+                    <option value="1">One Week</option>
+                    <option value="2">Two Weeks</option>
+                    <option value="3">Three Weeks</option>
+                    <option value="4">Two Months</option>
+                    <option value="5">Three Months</option>
+                </select><br>
+                <label id="dateError"></label><br><br>
+                <label id="lastLoan">Last Loan Collection Date</label>
+                <select name="" id="loanDate">
+                    <option value="">Select Date</option>
+                    <option value="1">1-month</option>
+                    <option value="2">2-month</option>
+                    <option value="3">3-month</option>
+                    <option value="4">4-month</option>
+                    <option value="5">5-month</option>
+                    <option value="6">6-month</option>
+                    <option value="7">7-month</option>
+                    <option value="8">8-month</option>
+                </select><br>
+                <label id="inputError"></label><br><br>
+                <label id="payP">Loan Repayment Period</label>
+                <select name="" id="payPeriod">
+                    <option value="">Select Date</option>
+                    <option value="1">1 Month</option>
+                    <option value="2">2 Month</option>
+                    <option value="3">3 Month</option>
+                    <option value="4">4 Month</option>
+                    <option value="5">5 Month</option>
+                    <option value="6">6 Month</option>
+                    <option value="7">7 Month</option>
+                </select><br>
+                <label id="payError"></label><br>
+            </form><br><br>
+            <button type="button" id="creditBtn">SEND</button><br><br>
+            <label id="messageT"></label>
+        </div>
+    </div>
+
+    <script src="loan.js"></script>
+</body>
+
+</html>
